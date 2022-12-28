@@ -1,70 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head >
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+ 
+<head>
+    <title>Booki</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Find a place for your dream vacation">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
-    </head>
-    <header>
-      <img class="Logo" src="images/logo/booki.png" alt="Booki logo"
-    </header>
+    <link href="images/logo/Booki.png" type="image/x-icon" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
 
-    
-      <body>
-        
-        <div class="topnav">
-          <div class="topnav-right">
-            <a href="#Accomodations">Accomodations</a>
-            <a href="#Activities">Activities</a>
-          </div>
-        </div>
-        <header>
-          <h3>Find a place for your dream vacation</h3>
-          <p>Downtown or in nature<p>
-            <input type="text" placeholder="Search..">
-        </header>
-      
-          <!---- Filters Sectiion ------>
-          <section class="Filters container">
-            <h4>Filters</h4>
-            <div>
-              <div class="Filters">
-                <div class="Filter icon">
-                  <i class="fas fa-money-bill-wave-alt fa-sm"></i>
-                </div>
-                <p>Low Cost</p>
-              </div>
-              <div class="Filters">
-                <div class="Filter icon">
-                  <i class="fa-solid fa-child-reaching"></i>
-                </div>
-                <p>Family Friendly</p>
-              </div>
-              <div class="Filters">
-                <div class="Filter icon">
-                  <i class="fa-sharp fa-solid fa-heart"></i>
-                </div>
-                <p>Romantic</p>
-              </div>
+<header> <!----HEADER---->
+  <!---Navigation bar-->
+  <nav>
+    <div class="topnav-right">
+      <a href="#Accomodation">Accomodation</a>
+      <a href="#Activities">Activities</a>
+    </div>
+  </nav>
+  <!---Logo-->
+  <img class="Logo" src="images/logo/booki.png" alt="Booki logo">
+  <!---Content-->
+  <h3> Find a place for your dream vacation</h3>
+  <p>Downtown or in nature</p>
+</header>
+<!---Search bar-->
+<form class="example" action="action_page.php">
+  <input type="text" placeholder="Marseille, France" name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<!--Filters-->
+<section class="Filters container">
+  <h4>Filters</h4>
+  <div>
+    <div class="Filters">
+      <div class="Filter icon">
+        <i class="fas fa-money-bill-wave-alt fa-sm"></i>
+      </div>
+      <p>Low Cost</p>
+    </div>
+    <div>
+      <div class="Filters">
+      <div class="Filter icon">
+        <i class="fa-solid fa-child-reaching"></i>
+      </div>
+      <p>Family Friendly</p>
+    </div>
+    <div class="Filters">
+      <div class="Filter icon">
+        <i class="fa-sharp fa-solid fa-heart"></i>
+      </div>
+      <p>Romantic</p>
+    </div>
+    <div class="Filters">
+      <div class="Filter icon">
+        <i class="fa-solid fa-dog"></i>
+      </div>
+      <p>Pet friendly</p>
+    </div>
+  </div>
+</section>
 
-            </div>
-            
-          </section>
-          
-          
+      <p>More than 500 accomodations available in this city</p>
+      <section>
+        <div class="container 2">
+          <img class="item" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Example image">
+          <img class="item" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Example image">
+          <img class="item" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Example image">
+          <img class="item" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Example image"> 
+          <img class="item" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Example image">
+          <img class="item" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Example image">   
         </div>
-        <footer>
-          <h4><strong> About</strong></h4>
-          <p>Site Map</p>
-          <p>General Terms and Conditions</p>
-          <P>Data and Privacy</P>
-          <h4><strong> Our Accomoadtions</strong></h4>
-          <p>Quality Assessment</p>
-          <p>You have a hotel?</p>
-          <h4><strong> Assistance</strong></h4>
-          <p>Help Desk</p>
-          <p>Contact Us</p>
-        </footer>
-      </body>
-    
+      </section>
+
+  
+  
+
+  
+  
+
+
+<!---information-->
+
+<article>
+  <!---Content-->
+</article>
+
+<footer>
+  <h4><strong> About</strong></h4>
+  <p>Site Map</p>
+  <p>General Terms and Conditions</p>
+  <P>Data and Privacy</P>
+  <h4><strong> Our Accomoadtions</strong></h4>
+  <p>Quality Assessment</p>
+  <p>You have a hotel?</p>
+  <h4><strong> Assistance</strong></h4>
+  <p>Help Desk</p>
+  <p>Contact Us</p>
+</footer>
