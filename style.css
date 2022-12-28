@@ -28,15 +28,9 @@ float: right;
   box-sizing: border-box;
 }
 
-.item {
-  width: 100px;
-  height: 70px;
-}
 
-.filter icon {
-  width: 100px;
-  height: 70px;
-}
+/* Filters section */
+
 
 .Filters {
   display: flex;
@@ -45,9 +39,23 @@ border: 2px solid black;
 border-radius: 50px;
 }
 
+
 .item {
+  width: 200px;
+  height: 100px;
   display: flexbox;
   max-width: 1200px;
   max-width: 100%;
-  flex-wrap: wrap;
+  border: solid white;
+  border-radius: 10px;
 }
+
+.Accomodations in Marseille container {
+  border: solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex wrap: wrap;
+}
+
+
