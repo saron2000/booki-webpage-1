@@ -1,3 +1,10 @@
+.accomodation container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
 /* Add a white background color to the top navigation */
 .topnav-right {
   background-color: white;
@@ -50,12 +57,10 @@ border-radius: 50px;
   border-radius: 10px;
 }
 
-.Accomodations in Marseille container {
-  border: solid white;
-  border-radius: 10px;
+.accomodation container {
   display: flex;
   flex-direction: row;
-  flex wrap: wrap;
+border: 2px solid black;
+border-radius: 50px;
 }
-
 
