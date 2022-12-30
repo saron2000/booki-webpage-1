@@ -1,0 +1,68 @@
+.accomodation container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+/* Add a white background color to the top navigation */
+.topnav-right {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav-right a {
+float: left;
+color: grey;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav-right a:hover {
+color: blue;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+}
+
+{
+  box-sizing: border-box;
+}
+
+
+/* Filters section */
+
+
+.Filters container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.item {
+  width: 200px;
+  height: 100px;
+  display: flexbox;
+  max-width: 1200px;
+  max-width: 100%;
+  border: solid black;
+  border-radius: 10px;
+}
+
+.accomodation container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hotel 1 {
+  border: solid black;
+  border-radius: 10px; 
+}
