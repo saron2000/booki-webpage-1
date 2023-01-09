@@ -86,15 +86,43 @@ float: right;
 }
 
 
+/* Accommodation Section */
+
+.Accommodations-Section {
+  display: flex;
+
+}
+
+.Accommodations {
+  display: flex;
+}
+
+.Accomodations-Marseille {
+  display: flex;
+  flex-wrap: wrap;
+  width: 66%;
+  gap: 10px;
+  column-gap: 20px;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0px 10px;
+
+}
+
+.Accomodations-MostPopular {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.accomodation card image{
+  width: 100px;
+  height: 300px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
 .Ratings{
 color: blue;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.accomodation name{
-  font-weight: 600;
-}
